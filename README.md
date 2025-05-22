@@ -19,7 +19,28 @@ Agorà si posiziona come un social network europeo di nuova generazione, che met
 
 ## Come Contribuire
 
-*(Se il tuo progetto è open source, aggiungi qui le linee guida su come gli altri possono contribuire)*
+*## Come Contribuire
+
+Siamo entusiasti del tuo interesse nel contribuire a rendere Agorà un social network europeo di valore! Ci sono diversi modi in cui puoi aiutarci:
+
+* **Segnalare Bug:** Se trovi un bug o un problema, ti preghiamo di aprire una nuova "Issue" (Segnalazione) su GitHub descrivendo il problema nel dettaglio e, se possibile, i passaggi per riprodurlo.
+* **Suggerire Funzionalità:** Hai un'idea per una nuova funzionalità o un miglioramento? Apri una "Issue" proponendo la tua idea e spiegando perché pensi che sarebbe utile per Agorà.
+* **Contribuire con Codice:** Se sei uno sviluppatore e vuoi contribuire direttamente al codice, segui questi passaggi:
+    1.  Fai un "fork" (biforcazione) del repository di Agorà sul tuo account GitHub.
+    2.  Crea un nuovo "branch" (ramo) con un nome descrittivo per la tua modifica (es. `feature/nuova-funzionalita` o `bugfix/correzione-login`).
+    3.  Apporta le tue modifiche e assicurati che il codice sia ben commentato e segua le convenzioni del progetto (se ne verranno definite).
+    4.  Scrivi dei test per il tuo codice, se applicabile.
+    5.  Invia una "pull request" (richiesta di unione) dal tuo branch al branch principale del repository di Agorà. Descrivi chiaramente le modifiche che hai apportato nella tua pull request.
+
+Esamineremo la tua pull request e ti daremo un feedback. Potrebbe essere necessario apportare alcune modifiche prima che la tua contribuzione venga unita.
+
+Apprezziamo molto il tuo contributo!
+I contributori significativi verranno riconosciuti pubblicamente nel README o in una sezione dedicata ai ringraziamenti.
+
+---
+
+---
+*
 
 ## Licenza
 
