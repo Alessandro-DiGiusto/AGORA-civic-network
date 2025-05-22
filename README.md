@@ -1,4 +1,4 @@
-# Agorà: Il Social Network Europeo per la Conversazione Autentica
+# Agorà: Il "Civic-Network" Europeo per la Conversazione Autentica
 
 [![Logo di Agorà](LINK_AL_TUO_LOGO.png)](LINK_AL_TUO_SITO_WEB_O_PROGETTO)
 
