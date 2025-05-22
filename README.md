@@ -23,14 +23,23 @@ Agorà si posiziona come un social network europeo di nuova generazione, che met
 
 ## Licenza
 
-*(Se applicabile, aggiungi qui le informazioni sulla licenza)*
+*## Licenza
+
+**Copyright © [2025] [alessandrodigiusto.it]**
+
+**Diritti sull'Idea:** L'idea concettuale di "Agorà: Il Social Civic Network Europeo per la Conversazione Autentica", inclusi i suoi principi fondanti e le sue caratteristiche distintive, sono di proprietà esclusiva di [alessandrodigiusto.it]. Nessuno è autorizzato a copiare, replicare o distribuire l'idea per scopi commerciali o per la creazione di piattaforme concorrenti senza esplicito permesso scritto da parte del proprietario.
+
+**Licenza del Codice Sorgente:**
+
+Chiunque è autorizzato a visualizzare, scaricare e contribuire con modifiche al codice sorgente di questo progetto tramite pull request. Inviando un contributo di codice, l'utente concede a [alessandrodigiusto.it] una licenza perpetua, irrevocabile, non esclusiva e gratuita per utilizzare, modificare e distribuire tale contributo all'interno di questo progetto.
+
+Il copyright del codice rimane di proprietà del/dei rispettivi autori dei contributi, ma la licenza d'uso per il progetto è quella specificata sopra.
+
+---
+*
 
 ## Contatti
 
-*(Aggiungi qui eventuali informazioni di contatto)*
+*alessandrodigiusto.it*
 
 ---
-
-Sentiti libero di personalizzare questo `README.md` con ulteriori dettagli sul tuo progetto, link al logo (sostituisci `LINK_AL_TUO_LOGO.png`) e al sito web o repository principale (sostituisci `LINK_AL_TUO_SITO_WEB_O_PROGETTO`).
-
-Cosa ne pensi? C'è qualcos'altro che vorresti includere nel README?
