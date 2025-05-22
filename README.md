@@ -1,6 +1,6 @@
 # Agorà: Il "Civic-Network" Europeo per la Conversazione Autentica
 
-[![Logo di Agorà](agoràlogo.JPG)](LINK_AL_TUO_SITO_WEB_O_PROGETTO)
+[![Logo di Agorà](agoràlogo.JPG)](alessandrodigiusto.it)
 
 **Agorà** ambisce a essere più di un semplice social network: un vero e proprio **spazio civico digitale europeo** dedicato alla conversazione autentica, al dibattito costruttivo e alla creazione di comunità, libero dalle tossicità che spesso affliggono le piattaforme online. Ispirato all'antica agorà greca, il nostro obiettivo è ricreare un luogo di incontro e scambio di idee basato sul rispetto e sull'autenticità.
 
