@@ -42,6 +42,29 @@ Apprezziamo molto il tuo contributo! I contributori significativi verranno ricon
 
 ---
 
+## 🚀 Stack Tecnologico Consigliato
+
+Per garantire coerenza, qualità e scalabilità nello sviluppo di **Agorà**, suggeriamo ai contributori di seguire le seguenti linee guida tecnologiche:
+
+| Area              | Tecnologia consigliata                          |
+|-------------------|------------------------------------------------|
+| **Frontend**      | React o Vue + Chakra UI / Material UI          |
+| **Backend**       | Node.js + Express o Python + FastAPI           |
+| **Autenticazione**| Keycloak, OAuth2, integrazione CIE / eIDAS     |
+| **Database**      | PostgreSQL (+ Elasticsearch per ricerca)       |
+| **Realtime**      | Socket.IO + Web Push API                        |
+| **Hosting**       | Cloud europeo (OVHcloud, Scaleway, AWS EU)     |
+| **Container**     | Docker + Kubernetes                             |
+| **CI/CD**         | GitHub Actions                                 |
+| **Sicurezza**     | HTTPS, CSP, Rate Limiting, GDPR compliance     |
+| **Accessibilità UX** | WCAG 2.1, ARIA, Lighthouse                    |
+
+Questa lista rappresenta le tecnologie principali con cui sviluppare e mantenere Agorà, assicurando un ambiente moderno, sicuro e accessibile a tutti.
+
+---
+
+> Se hai suggerimenti o vuoi proporre tecnologie alternative, ti invitiamo ad aprire una issue per discuterne con la community.
+
 ## 📄 Licenza
 
 **Copyright © 2025 [alessandrodigiusto.it]**
