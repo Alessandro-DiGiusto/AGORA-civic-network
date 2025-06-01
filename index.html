@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./pages/styles/login.css">
 </head>
+
+
 <body>
     <main>
         <section class="login-section">
@@ -15,7 +17,7 @@
                 <h2>Agorà ti aiuta a connetterti e rimanere in contatto con le persone della tua vita.</h2>
             </article>
             <article class="login-form-container">
-                <form action="#" class="login-form">
+                <form id="login-form" class="login-form">
                     <label for="title">Login</label>
 
                     <input type="email" name="login-user-email" id="login-email" placeholder="La tua email">
@@ -26,67 +28,32 @@
                     
                     <a href="recovery.html">Recupera la tua password</a>
                 </form>
+                <div class="login-info" style="display: flex; flex-direction: column; align-items: center;">
+                <h3>Informazioni di Login</h3>
+                <p>Login in fase di test</p>
+                <div class="howtologin" style="text-align: left;">
+                <p>usare come username: prova@gmail.com</p>
+                <p>usare come Password: 123</p>
+                </div>
+                </div>
             </article>
         </section>
     </main>
-    <!-- <div class="container">
-        <h1>Agorà: Il Social Network Europeo per la Conversazione Autentica</h1>
-        <p>Agorà non è solo un social network, ma un vero e proprio <strong>spazio civico digitale europeo</strong>. L'obiettivo primario è ricreare lo spirito dell'antica agorà greca: un luogo di incontro, scambio di idee, dibattito costruttivo e creazione di comunità, libero dalle tossicità che affliggono le piattaforme attuali.</p>
-
-        <h2>Caratteristiche Chiave e Ampliamenti:</h2>
-        <ul>
-            <li>
-                <strong>Autenticazione Forte con CIE:</strong>
-                <ul>
-                    <li>Come hai giustamente sottolineato, la registrazione esclusiva tramite Carta d'Identità Elettronica (CIE) rappresenta la pietra angolare per garantire l'autenticità degli utenti e scoraggiare la creazione di profili falsi. Questo non solo aumenta la fiducia all'interno della piattaforma, ma semplifica anche potenziali azioni legali contro comportamenti illeciti.</li>
-                    <li>Potremmo esplorare ulteriori livelli di verifica dell'identità in futuro, magari integrando sistemi di firma digitale europei.</li>
-                </ul>
-            </li>
-            <li>
-                <strong>Tolleranza Zero per i Contenuti Dannosi:</strong>
-                <ul>
-                    <li>La tolleranza zero per contenuti razzisti, offensivi, diffamatori e per la disinformazione grave è fondamentale. La minaccia di perseguibilità penale per i commenti più gravi agirebbe da forte deterrente.</li>
-                    <li>Oltre alla segnalazione degli utenti, potremmo implementare sistemi di moderazione avanzati basati su intelligenza artificiale (con supervisione umana) capaci di identificare e filtrare automaticamente contenuti problematici.</li>
-                    <li>Un sistema di "reputazione civica" degli utenti, basato sul rispetto delle regole della comunità e sulla qualità dei contributi, potrebbe incentivare comportamenti positivi.</li>
-                </ul>
-            </li>
-            <li>
-                <strong>Focus sul Dibattito Costruttivo:</strong>
-                <ul>
-                    <li>Agorà potrebbe implementare strumenti specifici per facilitare discussioni approfondite e rispettose. Ad esempio:
-                        <ul>
-                            <li>Filoni di discussione strutturati: Invece di semplici commenti, si potrebbero creare "tavole di discussione" su temi specifici con regole chiare per la partecipazione.</li>
-                            <li>Sistemi di voto ponderato: Per esprimere opinioni o valutare argomentazioni, andando oltre il semplice "like".</li>
-                            <li>Funzionalità per la sintesi e la comprensione: Strumenti per riassumere i punti chiave di una discussione o evidenziare argomentazioni contrastanti in modo neutrale.</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <strong>Valorizzazione della Cultura e dell'Identità Europea:</strong>
-                <ul>
-                    <li>Agorà potrebbe promuovere la diversità culturale e linguistica europea.</li>
-                    <li>Potrebbero esserci sezioni dedicate alla storia, all'arte, alle tradizioni e agli eventi culturali europei.</li>
-                    <li>Supporto multilingue avanzato per facilitare l'interazione tra persone di diverse nazionalità.</li>
-                </ul>
-            </li>
-            <li>
-                <strong>Privacy e Protezione dei Dati:</strong>
-                <ul>
-                    <li>Essendo un social network europeo, Agorà dovrebbe porre la massima attenzione alla privacy e alla protezione dei dati degli utenti, in linea con il GDPR e potenzialmente andando oltre con standard ancora più elevati.</li>
-                    <li>Trasparenza completa sull'utilizzo dei dati e controllo granulare da parte degli utenti sulle proprie informazioni.</li>
-                </ul>
-            </li>
-            <li>
-                <strong>Integrazione con Servizi Pubblici Europei (Futuro):</strong>
-                <ul>
-                    <li>In una visione a lungo termine, si potrebbe immaginare una potenziale integrazione (opzionale e con consenso dell'utente) con alcuni servizi pubblici digitali europei, semplificando ulteriormente l'identificazione e l'accesso a informazioni verificate.</li>
-                </ul>
-            </li>
-        </ul>
-
-        <h2>In Sintesi:</h2>
-        <p>Agorà si posiziona come un <strong>social network europeo di nuova generazione</strong>, che mette al centro l'<strong>autenticità</strong>, la <strong>civiltà del confronto</strong> e la <strong>valorizzazione dell'identità europea</strong>. La registrazione con CIE è il primo passo fondamentale per creare un ambiente più sicuro e responsabile.</p>
-    </div> -->
 </body>
+<!-- script per simulare il login -->
+<script>
+    document.getElementById("login-form").addEventListener("submit", function (e) {
+        e.preventDefault(); // Impedisce il refresh della pagina
+
+        const email = document.getElementById("login-email").value.trim();
+        const password = document.getElementById("login-password").value.trim();
+
+        if (email === "prova@gmail.com" && password === "123") {
+            // Login corretto → vai alla homepage
+            window.location.href = "./pages/homepage.html";
+        } else {
+            alert("Credenziali non corrette. Riprova.");
+        }
+    });
+</script>
 </html>
